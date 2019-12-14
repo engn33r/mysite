@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /index.html
+Allow: /about.html
+Allow: /contact.html
+Allow: /now.html
+Allow: /projects.html
+Disallow: /Projects/
+Disallow: /aboutpics/

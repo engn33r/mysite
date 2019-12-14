@@ -1,0 +1,96 @@
+---
+layout: home
+paginate: true
+---
+
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link type="text/css" href="css/foundation.css" rel="stylesheet"/>
+    <link type="text/css" href="slick-1.6.0/slick/slick.css" rel="stylesheet"/>
+    <link type="text/css" href="slick-1.6.0/slick/slick-theme.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <title>Erik Elbieh - Homepage - Personal Website</title>
+    <meta name="description" content="Erik Elbieh: engineer, traveler, and lifestyle experimentalist. A site to view Erik's past projects and current plans." />
+    <meta name="keywords" content="erik elbieh, engineer, projects, DIY, travel" />
+    <meta name="robots" content="noarchive"/>
+    <link rel="icon" href="favicon.ico">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <header>
+    <div class="row">
+      <div class="small-12 medium-12 large-4 columns text-center"><a class="whitetext" href="index.html">Erik Elbieh</a></div>
+      
+      <div class="small-6 medium-3 large-2 columns text-center">
+        <a href="about.html" class="button header-subnav">About</a>
+      </div><div class="small-6 medium-3 large-2 columns text-center">
+        <a href="projects.html" class="button header-subnav">Projects</a>
+      </div>
+
+      <div class="small-6 medium-3 large-2 columns text-center">
+        <a href="now.html" class="header-subnav button">Now</a>
+      </div><div class="small-6 medium-3 large-2 columns text-center">
+        <a href="contact.html" class="header-subnav button">Contact</a>
+      </div>
+    </div>
+
+  </header>
+  <hr>
+
+  <body>
+  	<div class="row">
+  		<div class="large-2 medium-2 small-2 columns">
+    	<p></p>
+    	</div>
+		<div class="large-8 medium-8 small-8 columns slightpadding">
+		<h5 class="text-center">
+		Engineer, Experimenter, Explorer
+		<br><br>
+		See my <a href="now.html">current work</a>, <a href="projects.html">past work</a>, or <a href="contact.html">reach out</a>
+		<br><br>		
+		</h5>
+		</div>
+		<div class="large-2 medium-2 small-2 columns">
+    	<p></p>
+    	</div>
+    </div>
+    <div class="row">
+    	<div class="rowslick">
+      		<div class="small-4 large-4 columns imageWrapper">
+          		<img src="pic1.jpg" alt="Custom (and insecure) RSA implementation">
+       		</div>
+    		<div class="small-4 large-4 columns imageWrapper">
+        		<img src="pic2.jpg" data-src="pic1.jpg" alt="Printrbot Plus 3-D printer project">
+       		</div>
+       		<div class="small-4 large-4 columns imageWrapper">
+       			<img src="pic3.jpg" data-src="pic1.jpg" alt="Carbon fiber and 3-D printed foldable quadcopter">
+       		</div>
+       		<div class="small-4 large-4 columns imageWrapper">
+          		<img src="pic4.jpg" data-src="pic1.jpg" alt="Custom electric mountainboard">
+       		</div>
+       		<div class="small-4 large-4 columns imageWrapper">
+          		<img src="pic5.jpg" data-src="pic1.jpg" alt="First custom quadcopter build">
+       		</div>
+    	</div>
+    </div>
+    <br>
+
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="slick-1.6.0/slick/slick.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.rowslick').slick({
+        autoplay: false,
+        arrows: true,
+      });
+    });
+    </script>
+
+  </body>
+</html>
