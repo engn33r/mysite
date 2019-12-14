@@ -13,15 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-#theme: jekyll-theme-so-simple
-remote_theme: "mmistakes/so-simple-theme@3.2.0"
+theme: jekyll-theme-so-simple
+# remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "Experimenting with Exaggerated Expectations"
-description: "An intro to optimizing daily life in the real world"
-baseurl: /blog # the subpath of your site, e.g. "/blog"
-url: https://erikelbieh.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: /images/EE_blog_logo.png # path of site logo, e.g. "/images/logo.png"
+title: "My Awesome Site"
+description: "It really is the best."
+baseurl: # the subpath of your site, e.g. "/blog"
+url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
@@ -37,21 +37,9 @@ disqus:
 twitter:
   username: # site's Twitter username, e.g. "mmistakes"
 
-#github's forced config options
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
-
 # Liquid
 liquid:
   error_mode: strict
-
-sass:
-    sass_dir: blog/_sass
 
 # Build settings
 permalink: /:categories/:title/
@@ -60,9 +48,8 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 5
-paginate_path: /page:num/
-
+# paginate: 10
+# paginate_path: /page:num/
 
 # Search
 search_full_content: false # can have performance implications for large sites
@@ -111,7 +98,7 @@ author:
       icon:
 
 # Footer Links
-# footer_links:
-#  - title: Feed
-#    url: atom.xml
-#    icon: fas fa-rss-square
+footer_links:
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
